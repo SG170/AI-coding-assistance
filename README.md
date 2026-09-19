@@ -4,13 +4,13 @@ A lightweight AI assistant fine-tuned to help engineering students with Python p
 
 ---
 
-## 📖 Overview
+##  Overview
 
 CodeMate is a Python programming tutor built by fine-tuning an open-source language model (TinyLlama-1.1B-Chat) on a curated dataset of programming Q&A pairs. The goal was to create a model that responds more naturally and relevantly to beginner-level Python questions than the untouched base model, using QLoRA — a lightweight, efficient fine-tuning method that makes training feasible on a free-tier GPU.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Source:** [`iamtarun/python_code_instructions_18k_alpaca`](https://huggingface.co/datasets/iamtarun/python_code_instructions_18k_alpaca) (Hugging Face)
 - **Original size:** 18,612 examples
@@ -23,7 +23,7 @@ CodeMate is a Python programming tutor built by fine-tuning an open-source langu
 
 ---
 
-## 🧠 Base Model
+##  Base Model
 
 **TinyLlama-1.1B-Chat-v1.0**
 
@@ -31,7 +31,7 @@ Chosen deliberately for its small size (1.1B parameters), which made QLoRA fine-
 
 ---
 
-## ⚙️ Fine-Tuning Approach
+##  Fine-Tuning Approach
 
 | Setting | Value |
 |---|---|
